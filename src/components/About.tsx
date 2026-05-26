@@ -3,7 +3,7 @@ const About = () => (
   <section id="sobre" style={{ padding: "180px 0", borderTop: "1px solid var(--line)" }}>
     <div className="container">
       <div className="reveal" style={{ marginBottom: 80 }}>
-        <div className="eyebrow" style={{ marginBottom: 24 }}>(06) A equipe</div>
+        <div className="eyebrow" style={{ marginBottom: 24 }}>(05) A equipe</div>
         <h2 className="display" style={{ fontSize: "clamp(36px,5.2vw,78px)", maxWidth: 820, lineHeight: 1.05, letterSpacing: "-.04em" }}>
           Pessoas reais cuidando<br/>
           <span className="serif" style={{ fontWeight: 400, fontStyle: "italic", color: "var(--accent)" }}>de pessoas reais.</span>

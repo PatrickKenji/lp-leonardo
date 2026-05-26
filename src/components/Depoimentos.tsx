@@ -52,7 +52,7 @@ const Depoimentos = () => {
         {/* Header */}
         <div style={{ display:"flex", justifyContent:"space-between", alignItems:"flex-end", marginBottom:64, flexWrap:"wrap", gap:20 }}>
           <div>
-            <div className="eyebrow reveal" style={{ marginBottom:14 }}>(05) Quem já passou</div>
+            <div className="eyebrow reveal" style={{ marginBottom:14 }}>(04) Quem já passou</div>
             <div style={{ display:"flex", alignItems:"center", gap:14 }}>
               <span className="display reveal reveal-1" style={{ fontSize:"clamp(48px,7vw,96px)", lineHeight:1, letterSpacing:"-.04em", fontWeight:700 }}>4.9</span>
               <div className="reveal reveal-1">

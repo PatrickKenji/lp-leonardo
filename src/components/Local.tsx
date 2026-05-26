@@ -7,7 +7,7 @@ const Local = () => (
       <div className="lg" style={{ display: "grid", gridTemplateColumns: "1fr 1.2fr", gap: 64, alignItems: "start" }}>
         {/* Coluna esquerda: info */}
         <div className="reveal">
-          <div className="eyebrow" style={{ marginBottom: 24 }}>(07) Onde fica</div>
+          <div className="eyebrow" style={{ marginBottom: 24 }}>(06) Onde fica</div>
           <h2 className="display" style={{ fontSize: "clamp(40px, 6vw, 84px)" }}>
             Av. Tuiuti, 1868<br/>
             <span className="serif" style={{ fontWeight: 400, fontStyle: "italic", color: "var(--accent)" }}>Vila Morangueira.</span>

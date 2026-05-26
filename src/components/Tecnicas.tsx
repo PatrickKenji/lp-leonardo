@@ -48,7 +48,7 @@ const Tecnicas = () => (
     <div className="container">
 
       <div className="reveal" style={{ marginBottom:64, maxWidth:900 }}>
-        <div className="eyebrow" style={{ marginBottom:20 }}>(03) Recursos & técnicas</div>
+        <div className="eyebrow" style={{ marginBottom:20 }}>(01) Recursos & técnicas</div>
         <h2 className="display" style={{ fontSize:"clamp(40px,5.5vw,82px)", lineHeight:1.0 }}>
           O que usamos<br/>
           no <span className="serif" style={{ fontWeight:400, fontStyle:"italic", color:"var(--accent)" }}>tratamento</span>.

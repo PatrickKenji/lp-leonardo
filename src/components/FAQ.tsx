@@ -19,10 +19,10 @@ const FAQ = () => {
           <div className="reveal faq-sticky" style={{ position: "sticky", top: 120 }}>
             <div className="eyebrow" style={{ marginBottom: 24 }}>(07) Perguntas</div>
             <h2 className="display" style={{ fontSize: "clamp(40px, 6vw, 84px)" }}>
-              Antes de marcar,<br/>
-              <span className="serif" style={{ fontWeight: 400, fontStyle: "italic", color: "var(--accent)" }}>tira essas dúvidas.</span>
+              Tudo que você<br/>
+              <span className="serif" style={{ fontWeight: 400, fontStyle: "italic", color: "var(--accent)" }}>precisa saber.</span>
             </h2>
-            <p style={{ color: "var(--ink-3)", fontSize: 16, lineHeight: 1.5, marginTop: 24, maxWidth: 360 }}>Não achou a resposta? Manda no WhatsApp. Leonardo responde pessoalmente.</p>
+            <p style={{ color: "var(--ink-3)", fontSize: 16, lineHeight: 1.5, marginTop: 24, maxWidth: 360 }}>Qualquer dúvida, mande no nosso WhatsApp da clínica e assim que possível iremos te responder.</p>
           </div>
           <div className="reveal reveal-1">
             {FAQS.map((it, i) => {

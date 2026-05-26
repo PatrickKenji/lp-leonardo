@@ -30,7 +30,7 @@ const Pacotes = () => {
 
         <div className="gc" data-i="0" style={{ ...anim(0), display:"flex", justifyContent:"space-between", alignItems:"flex-end", marginBottom:48, flexWrap:"wrap", gap:16 }}>
           <div>
-            <div className="eyebrow" style={{ marginBottom:16 }}>(04) A Clínica</div>
+            <div className="eyebrow" style={{ marginBottom:16 }}>(03) A Clínica</div>
             <h2 className="display" style={{ fontSize:"clamp(34px,5vw,72px)", lineHeight:1, letterSpacing:"-.04em", margin:0 }}>
               Um espaço feito<br/>
               <span className="serif" style={{ fontWeight:400, fontStyle:"italic", color:"var(--accent)" }}>para tratar de verdade.</span>

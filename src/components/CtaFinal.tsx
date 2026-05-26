@@ -17,10 +17,10 @@ const CtaFinal = () => {
           A primeira sessão começa com você falando. A clínica escuta, avalia — e descobre o que está acontecendo de verdade.
         </p>
         <div className="reveal reveal-2" style={{ display: "flex", gap: 12, marginTop: 56, flexWrap: "wrap", justifyContent: "center" }}>
-          <a href={wapp("Olá, Leonardo! Sou atleta e tive uma lesão. Quero agendar uma avaliação.")} target="_blank" rel="noopener" className="btn btn-lg" style={{ background: "#fff", color: "var(--ink)" }}>
+          <a href={wapp("Olá, Leonardo! Sou atleta e tive uma lesão. Quero agendar uma avaliação.")} target="_blank" rel="noopener" data-direct="1" className="btn btn-lg" style={{ background: "#fff", color: "var(--ink)" }}>
             <I.whats/> Tive uma lesão e quero voltar a treinar
           </a>
-          <a href={wapp("Olá, Leonardo! Estou com dor e quero agendar uma avaliação.")} target="_blank" rel="noopener" className="btn btn-lg" style={{ background: "transparent", color: "#fff", border: "1px solid rgba(255,255,255,0.3)" }}>
+          <a href={wapp("Olá, Leonardo! Estou com dor e quero agendar uma avaliação.")} target="_blank" rel="noopener" data-direct="1" className="btn btn-lg" style={{ background: "transparent", color: "#fff", border: "1px solid rgba(255,255,255,0.3)" }}>
             Tenho dor e quero entender o que está acontecendo
           </a>
         </div>
