@@ -14,7 +14,7 @@ const Processo = () => (
   <section id="processo" style={{ padding:"180px 0", position:"relative", overflow:"hidden", background:"var(--navy)" }}>
     <div className="container">
       <div className="reveal" style={{ marginBottom:64, maxWidth:1100 }}>
-        <div className="eyebrow" style={{ marginBottom:24, color:"rgba(150,190,255,0.9)", borderColor:"rgba(150,190,255,0.3)" }}>(02) A avaliação</div>
+        <div className="eyebrow" style={{ marginBottom:24, color:"rgba(150,190,255,0.9)", borderColor:"rgba(150,190,255,0.3)" }}>(01) A avaliação</div>
         <h2 className="display" style={{ fontSize:"clamp(44px,7vw,110px)", color:"#fff" }}>
           A maioria trata onde <span className="serif" style={{ fontWeight:400, fontStyle:"italic", color:"var(--accent-light)" }}>dói</span>.<br/>
           Aqui entendemos por que dói.

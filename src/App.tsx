@@ -20,8 +20,8 @@ const App = () => {
     <>
       <Nav />
       <Hero />
-      <Tecnicas />
       <Processo />
+      <Tecnicas />
       <Pacotes />
       <Depoimentos />
       <About />

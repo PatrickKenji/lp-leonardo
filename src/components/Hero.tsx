@@ -76,29 +76,29 @@ const Hero = () => {
           <h1 className="display hero-h1 reveal">
             <span className="hero-line-wrap">
               <span style={{ display:"inline-block", transform:`translateY(${p*-8}px)`, transition:"transform .7s var(--ease-out)" }}>
-                Fisioterapia de
+                Avaliação
               </span>
             </span>
             <span className="hero-line-wrap">
               <span className="serif hero-accent" style={{
                 transform:`translateX(${(m.x-0.5)*7}px)`,
                 transition:"transform .5s var(--ease-out)",
-              }}>resultado,</span>
+              }}>individualizada</span>
             </span>
             <span className="hero-line-wrap">
               <span style={{ display:"inline-block", transform:`translateY(${p*-4}px)`, transition:"transform .8s var(--ease-out)" }}>
-                não de protocolo.
+                que trata a causa.
               </span>
             </span>
           </h1>
 
           <div className="hero-sep"/>
 
-          <p className="hero-sub reveal reveal-1">Musculação, dor crônica, pós-cirúrgico, corrida. Na clínica, a avaliação começa sempre pela causa — não pelo sintoma.</p>
+          <p className="hero-sub reveal reveal-1">Antes de qualquer protocolo, eu identifico a origem real do problema — força, mobilidade, padrão de movimento, carga de treino — e construo com você um plano claro de recuperação.</p>
 
           <div className="hero-ctas reveal reveal-2">
-            <a href={wapp("Olá, Leonardo! Quero agendar minha primeira sessão.")} target="_blank" rel="noopener" className="btn btn-primary btn-lg">
-              <I.whats/> Agendar minha sessão
+            <a href={wapp("Olá, Leonardo! Quero agendar minha avaliação.")} target="_blank" rel="noopener" className="btn btn-primary btn-lg">
+              <I.whats/> Agendar avaliação
             </a>
             <a href="#processo" className="btn btn-ghost btn-lg">
               Como funciona <I.down/>
