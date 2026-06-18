@@ -9,15 +9,15 @@ const Nav = () => {
   return (
     <nav className={`navshell ${scrolled ? "scrolled" : ""}`}>
       <div className="container" style={{ display: "flex", alignItems: "center", justifyContent: "space-between", padding: "16px 0" }}>
-        <a href="#top"><Logo compact={scrolled}/></a>
+        <a href="#top"><Logo compact={scrolled} white={!scrolled}/></a>
         <div className="navlinks" style={{ display: "flex", alignItems: "center", gap: 4 }}>
           {[["Equipe","#sobre"],["Tratamentos","#casos"],["Método","#processo"],["Depoimentos","#depoimentos"],["Localização","#local"]].map(([t,h]) => (
             <a key={h} href={h} style={{
-              fontSize: 13, color: "var(--ink-2)", padding: "8px 14px", borderRadius: 999,
+              fontSize: 13, color: scrolled ? "var(--ink-2)" : "rgba(255, 255, 255, 0.85)", padding: "8px 14px", borderRadius: 999,
               transition: "all .3s var(--ease)", fontWeight: 500,
             }}
-            onMouseEnter={e => { e.currentTarget.style.background = "rgba(0,0,0,0.05)"; e.currentTarget.style.color = "var(--ink)"; }}
-            onMouseLeave={e => { e.currentTarget.style.background = "transparent"; e.currentTarget.style.color = "var(--ink-2)"; }}
+            onMouseEnter={e => { e.currentTarget.style.background = scrolled ? "rgba(0,0,0,0.05)" : "rgba(255,255,255,0.08)"; e.currentTarget.style.color = scrolled ? "var(--ink)" : "#fff"; }}
+            onMouseLeave={e => { e.currentTarget.style.background = "transparent"; e.currentTarget.style.color = scrolled ? "var(--ink-2)" : "rgba(255, 255, 255, 0.85)"; }}
             >{t}</a>
           ))}
           <a href={wapp("Olá, Leonardo! Gostaria de agendar uma sessão de fisioterapia.")} target="_blank" rel="noopener" className="btn btn-primary" style={{ marginLeft: 8, padding: "10px 18px", fontSize: 13 }}>

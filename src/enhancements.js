@@ -154,7 +154,7 @@
       var tries = 0;
       var timer = setInterval(function () {
         tries += 1;
-        var hasApp = document.querySelector('.hero-wrap') && document.querySelector('.photo-bento');
+        var hasApp = document.querySelector('#processo') && document.querySelector('.photo-bento');
         if (!hasApp && tries < 90) return;
         clearInterval(timer);
         if (!hasApp || document.getElementById('lb-mobile-uiux-style')) return;

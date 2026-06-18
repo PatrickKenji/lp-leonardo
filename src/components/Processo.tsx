@@ -12,6 +12,7 @@ const AVAL_ITEMS = [
 
 const Processo = () => (
   <section id="processo" style={{ padding:"180px 0", position:"relative", overflow:"hidden", background:"var(--navy)" }}>
+    <div id="top" style={{ position: "absolute", top: 0 }} />
     <div className="container">
       <div className="reveal" style={{ marginBottom:64, maxWidth:1100 }}>
         <div className="eyebrow" style={{ marginBottom:24, color:"rgba(150,190,255,0.9)", borderColor:"rgba(150,190,255,0.3)" }}>(01) A avaliação</div>
@@ -20,7 +21,7 @@ const Processo = () => (
           Aqui entendemos por que dói.
         </h2>
         <p style={{ marginTop:28, fontSize:19, lineHeight:1.55, color:"rgba(255,255,255,0.70)", maxWidth:680 }}>
-          Olho pro corpo inteiro. Força, mobilidade, padrão de movimento, carga do treino. Porque dor no joelho raramente é um problema de joelho.
+          Avaliação individualizada para identificar a causa do problema e construir um plano claro de recuperação.
         </p>
       </div>
 
@@ -59,6 +60,7 @@ const Processo = () => (
     <style>{`
       @media(max-width:900px){.proc{grid-template-columns:1fr 1fr !important}}
       @media(max-width:480px){.proc{grid-template-columns:1fr !important}}
+      @media(max-width:768px){#processo{padding-top:130px !important}}
     `}</style>
   </section>
 );

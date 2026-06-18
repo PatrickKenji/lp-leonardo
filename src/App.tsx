@@ -2,7 +2,6 @@ import { useReveal } from "./lib/hooks";
 import { wapp } from "./lib/whatsapp";
 import { I } from "./lib/icons";
 import Nav from "./components/Nav";
-import Hero from "./components/Hero";
 import Tecnicas from "./components/Tecnicas";
 import Processo from "./components/Processo";
 import Pacotes from "./components/Pacotes";
@@ -19,7 +18,6 @@ const App = () => {
   return (
     <>
       <Nav />
-      <Hero />
       <Processo />
       <Tecnicas />
       <Pacotes />
